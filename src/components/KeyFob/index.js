@@ -62,3 +62,7 @@ const styles = StyleSheet.create({
     tintColor: '#5e81bc'
   }
 });
+
+
+// this page does not have a onPress function
+// Postman is coming back with unauthorised response
