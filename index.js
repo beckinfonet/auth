@@ -1,3 +1,1 @@
-import commonFunction from '@walnut/common'
-
-console.log(commonFunction());
+module.exports = require('./dist');

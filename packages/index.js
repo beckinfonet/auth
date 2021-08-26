@@ -1,9 +1,13 @@
-import commonFunction from './common';
-import testMethod from './server';
+// import commonFunction from './common';
+// import testMethod from './server';
 
-export default {
-    commonFunction,
-    testMethod
+// export default {
+//     commonFunction,
+//     testMethod
+// }
+
+const commonFunction = () => {
+    return "testing still happening";
 }
 
-console.log('testing defaults', commonFunction(), testMethod())
+export default commonFunction;
