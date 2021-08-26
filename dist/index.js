@@ -1,19 +1,10 @@
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports["default"] = void 0;
+var testUtil = require('./util');
 
-// import commonFunction from './common';
-// import testMethod from './server';
-// export default {
-//     commonFunction,
-//     testMethod
-// }
-var commonFunction = function commonFunction() {
-  return "testing still happening";
+var anotherUtil = require('./anotherUtil');
+
+module.exports = {
+  testUtil: testUtil,
+  anotherUtil: anotherUtil
 };
-
-var _default = commonFunction;
-exports["default"] = _default;
